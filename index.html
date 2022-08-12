@@ -8,21 +8,39 @@
     <!-- App title -->
     <title>Responsive Pure CSS Menu</title>
 
+    <!-- Link css file -->
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
     
     <!-- Navigation bar -->
-    <header>
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">Elopement App</a>
+
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Active Searches</a> </li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
     </header>
 
     <!-- Main content -->
     <main>
         <article>
             <h1>
-                Elopement Tool
+                Elopement application tool
             </h1>
             <p>
-                Search and rescue driven
+                Description here
             </p>
         </article>
 
